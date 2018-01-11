@@ -1,0 +1,53 @@
+= Instructions
+You will find few exercises to help us understanding your abilities to code.
+There are no limit of time, but we would like you to be transparent with us
+and let us know how long it took to do each section.
+
+Please send a zip archive containing your code.
+
+= Word class
+Our application skeleton has a model class Word with few challenges for you.
+
+First, please write down tests for each challenge and then write your own solution.
+You will be evaluated not only on how you use best practices to write your solution,
+but also how clever your tests are.
+
+= String Patch
+We have decided to monkey patch the String class. We have already written few tests
+that should help you understand the function to add.
+
+Implement the monkey patch, and write those functions.
+Add more tests if you think there are some missing.
+
+= My First API
+We started to write a permission manager API for a marketplace, and we would like you
+to help us to implement it. You are the expert so we want you to bring the best solution.
+We will accept all your solutions as long as it answers the requirements below.
+
+The owner of the supermarket has defined global permissions for each category of users
+registered into the system :
+
+* managers have full access
+
+* storekeepers assistant have partial access
+
+* visitors have no access
+
+Write a json service that will return the list of all users with :
+
+* The firstname
+
+* The lastname
+
+* The category
+
+* The current permission.
+
+The product owner thinks that requirements are clear enough and has no time to answer your questions.
+So you will have to come up with a solution with only what you have here.
+
+Bonus: we would like to be able to overwrite those accesses for each users. So a
+storekeeper could have temporary full access to the system. So the temporary has a end date. When
+the end date is in the past, the permission is not valid anymore.
+
+Thank you!
